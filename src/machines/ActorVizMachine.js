@@ -1,4 +1,4 @@
-import { createMachine, assign, sendParent } from "xstate";
+import { assign, createMachine } from "xstate";
 
 const ActorVizMachine = createMachine(
   {
